@@ -188,9 +188,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75d88937f627b0542a0fe5c47d443df5, type: 3}
+  m_Script: {fileID: 11500000, guid: 046f22d719812a64d8e42a8e7e1f9c8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 591556939}
+  smoothSpeed: 0.125
+  offset: {x: 0, y: 0, z: -20}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -244,3 +247,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &591556939 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4022239622206656, guid: f829d044197fbd243a72c6799b9f804b,
+    type: 2}
+  m_PrefabInternal: {fileID: 383778699}
