@@ -67,7 +67,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1030307250500054}
-  m_LocalRotation: {x: 0, y: 0, z: 0.71624273, w: 0.69785124}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.35191467, y: 0.039653182, z: 0}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children:
@@ -103,7 +103,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 1030307250500054}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 64f9acf8e8924d643bda1c5cc7d62f81, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -118,7 +118,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 1030307250500054}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 64f9acf8e8924d643bda1c5cc7d62f81, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
