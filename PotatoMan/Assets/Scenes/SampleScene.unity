@@ -35678,6 +35678,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114093520807548014, guid: f829d044197fbd243a72c6799b9f804b,
+        type: 2}
+      propertyPath: JumpForce
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f829d044197fbd243a72c6799b9f804b, type: 2}
   m_IsPrefabAsset: 0
