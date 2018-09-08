@@ -10,6 +10,8 @@ public class PlayerControllerScript : MonoBehaviour {
     [SerializeField] private bool IsAdmincontrol = true;
     [SerializeField] Transform GroundCheck;
     [SerializeField] private LayerMask WhatIsGround;
+    [SerializeField] private string JumpSound;
+    [SerializeField] private string LandSound;
 
     private bool Grounded;
     const float GroundedRadius = .2f;
@@ -31,8 +33,13 @@ public class PlayerControllerScript : MonoBehaviour {
         for (int i = 0; i < colliders.Length; i++) {
             if (colliders[i].gameObject != gameObject) {
                 Grounded = true;
-                HasJumped = false;
-                    }
+                if (HasJumped == true)
+                {
+                    HasJumped = false;
+                    FMODUnity.RuntimeManager.PlayOneShot(LandSound);
+                }
+                
+            }
         }
     }
 
@@ -44,6 +51,7 @@ public class PlayerControllerScript : MonoBehaviour {
         if (jump && !Grounded && !HasJumped || jump && IsAdmincontrol) {
             if (!IsAdmincontrol) {
                 HasJumped = true;
+                FMODUnity.RuntimeManager.PlayOneShot(JumpSound);
             }
             OceanmanRigidbody2D.AddForce(new Vector2(0f, JumpForce)); 
         }
