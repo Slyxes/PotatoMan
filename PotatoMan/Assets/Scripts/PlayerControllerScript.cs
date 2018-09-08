@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerControllerScript : MonoBehaviour {
 
@@ -46,6 +47,10 @@ public class PlayerControllerScript : MonoBehaviour {
             }
             OceanmanRigidbody2D.AddForce(new Vector2(0f, JumpForce)); 
         }
+    }
+    public void Esc(bool HitEscape) {
+        if (HitEscape == true)
+            SceneManager.LoadScene("MainMenu");
     }
 
     

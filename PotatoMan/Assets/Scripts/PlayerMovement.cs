@@ -10,12 +10,7 @@ public class PlayerMovement : MonoBehaviour {
 
     float horizontalMove = 0f;
     bool jump = false;
-
-
-    // Use this for initialization
-    void Start() {
-
-    }
+    bool HitEscape = false;
 
     // Update is called once per frame
     void Update() {
@@ -23,10 +18,15 @@ public class PlayerMovement : MonoBehaviour {
         if (Input.GetButtonDown("Jump")) {
             jump = true;
         }
+        if (Input.GetButtonDown("Cancel")) {
+            HitEscape = true;
+        }
     }
 
     private void FixedUpdate() {
         controller.Move(horizontalMove * Time.fixedDeltaTime, jump);
         jump = false;
+        controller.Esc(HitEscape);
+        HitEscape = false;
     }
 }
