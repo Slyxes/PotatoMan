@@ -181,6 +181,8 @@ MonoBehaviour:
   WhatIsGround:
     serializedVersion: 2
     m_Bits: 4294967295
+  JumpSound: event:/Hopp
+  LandSound: event:/Land
 --- !u!212 &212410485761531694
 SpriteRenderer:
   m_ObjectHideFlags: 1
