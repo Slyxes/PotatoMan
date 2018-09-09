@@ -13,9 +13,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: D:\FMOD\Potatisspel\Potatisspel.fspro
-  SourceProjectPathUnformatted: D:\FMOD\Potatisspel\Potatisspel.fspro
-  SourceBankPathUnformatted: D:\FMOD\Potatisspel\Build
+  sourceProjectPath: FMOD\Potatisspel.fspro
+  SourceProjectPathUnformatted: FMOD\Potatisspel.fspro
+  SourceBankPathUnformatted: FMOD\Build
   AutomaticEventLoading: 1
   AutomaticSampleLoading: 0
   ImportType: 0
@@ -57,5 +57,5 @@ MonoBehaviour:
   - Platform: 2
     Value: 32
   Plugins: []
-  MasterBank: Master Bank
+  MasterBank: 
   Banks: []

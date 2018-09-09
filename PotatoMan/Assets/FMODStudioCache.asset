@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 114855754396400232}
-  - {fileID: 114535272586320006}
+  - {fileID: 114399012187411112}
+  - {fileID: 114095463888641642}
   EditorEvents:
-  - {fileID: 114071083166574868}
-  - {fileID: 114636722726537662}
-  MasterBankRef: {fileID: 114535272586320006}
-  StringsBankRef: {fileID: 114855754396400232}
-  stringsBankWriteTime: 636720146335316870
+  - {fileID: 114647032023303370}
+  - {fileID: 114824460632828886}
+  MasterBankRef: {fileID: 114095463888641642}
+  StringsBankRef: {fileID: 114399012187411112}
+  stringsBankWriteTime: 636720313840717616
   cacheVersion: 2
 --- !u!114 &114071083166574868
 MonoBehaviour:
@@ -43,6 +43,43 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 196
+--- !u!114 &114095463888641642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: C:\Users\Slyxes\Documents\Unity Projects\PotatoManGame\PotatoMan\PotatoMan\FMOD\Build\Desktop\Master
+    Bank.bank
+  lastModified: 636720313840647685
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 19520
+  Exists: 1
+--- !u!114 &114399012187411112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: FMOD\Build\Desktop\Master Bank.strings.bank
+  lastModified: 636720313840717616
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 762
+  Exists: 1
 --- !u!114 &114535272586320006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83,6 +120,50 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 264
+--- !u!114 &114647032023303370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Hopp
+  guid: 3c0423d38807284d908210d870a9e2f5
+  Banks:
+  - {fileID: 114095463888641642}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 196
+--- !u!114 &114824460632828886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Land
+  guid: 914e9bc74e74174897ce79bea62f9058
+  Banks:
+  - {fileID: 114095463888641642}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 224
 --- !u!114 &114855754396400232
 MonoBehaviour:
   m_ObjectHideFlags: 0

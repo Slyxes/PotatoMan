@@ -19,6 +19,7 @@ public class PlayerControllerScript : MonoBehaviour {
     private Vector3 Velocity = Vector3.zero;
     private Rigidbody2D OceanmanRigidbody2D;
     private bool HasJumped = false;
+    private bool LandingCheck;
 
     private void Awake() {
         OceanmanRigidbody2D = GetComponent<Rigidbody2D>();
@@ -36,11 +37,22 @@ public class PlayerControllerScript : MonoBehaviour {
                 if (HasJumped == true)
                 {
                     HasJumped = false;
-                    FMODUnity.RuntimeManager.PlayOneShot(LandSound);
-                }
-                
+                } 
             }
         }
+        if (Grounded == true) {
+            if (LandingCheck == true) {
+                FMODUnity.RuntimeManager.PlayOneShot(LandSound);
+                LandingCheck = false;
+            }
+        }
+        else {
+            LandingCheck = true;
+        }
+    }
+
+    private void LandingSoundCheck(bool grounded, bool landingcheck) {
+
     }
 
     public void Move(float move, bool jump) {
