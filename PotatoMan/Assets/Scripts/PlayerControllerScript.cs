@@ -12,7 +12,6 @@ public class PlayerControllerScript : MonoBehaviour {
     [SerializeField] private LayerMask WhatIsGround;
     [SerializeField] private string JumpSound;
     [SerializeField] private string LandSound;
-    [SerializeField] private string Level01Music;
 
     private bool Grounded;
     const float GroundedRadius = .2f;
@@ -24,7 +23,6 @@ public class PlayerControllerScript : MonoBehaviour {
 
     private void Awake() {
         OceanmanRigidbody2D = GetComponent<Rigidbody2D>();
-        FMODUnity.RuntimeManager.PlayOneShot(Level01Music);
     }
     private void FixedUpdate() {
         bool wasGrounded = Grounded;

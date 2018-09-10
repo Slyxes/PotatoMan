@@ -183,6 +183,7 @@ MonoBehaviour:
     m_Bits: 4294967295
   JumpSound: event:/Hopp
   LandSound: event:/Land
+  Level01Music: event:/Musik_Theme1
 --- !u!212 &212410485761531694
 SpriteRenderer:
   m_ObjectHideFlags: 1
