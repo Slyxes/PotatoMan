@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{fb081e9a-16fa-462e-b80d-742f3708b324}">
+        <property name="assetPath">
+            <value>Hopp_1.mp3</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.23999999999999999</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{659c160b-e933-43dd-82bd-8098ab47bc03}</destination>
+        </relationship>
+    </object>
+</objects>

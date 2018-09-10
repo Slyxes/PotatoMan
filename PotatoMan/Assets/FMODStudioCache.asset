@@ -12,39 +12,17 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 114399012187411112}
-  - {fileID: 114549143496281858}
+  - {fileID: 114962838374386692}
+  - {fileID: 114148700830267014}
   EditorEvents:
-  - {fileID: 114647032023303370}
-  - {fileID: 114824460632828886}
-  - {fileID: 114572266431523014}
-  MasterBankRef: {fileID: 114549143496281858}
-  StringsBankRef: {fileID: 114399012187411112}
-  stringsBankWriteTime: 636721864013497023
+  - {fileID: 114893649313844092}
+  - {fileID: 114609806969989906}
+  - {fileID: 114469063065197448}
+  MasterBankRef: {fileID: 114148700830267014}
+  StringsBankRef: {fileID: 114962838374386692}
+  stringsBankWriteTime: 636721948663906486
   cacheVersion: 2
---- !u!114 &114071083166574868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: event:/Hopp
-  guid: 3c0423d38807284d908210d870a9e2f5
-  Banks:
-  - {fileID: 114535272586320006}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 196
---- !u!114 &114095463888641642
+--- !u!114 &114148700830267014
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -55,91 +33,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Path: C:\Users\Slyxes\Documents\Unity Projects\PotatoManGame\PotatoMan\PotatoMan\FMOD\Build\Desktop\Master
-    Bank.bank
-  lastModified: 636720313840647685
+  Path: D:\Spel\PotatoMan\PotatoMan\FMOD\Potatisspel\Build\Desktop\Master Bank.bank
+  lastModified: 636721948663891512
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 19520
+    Value: 338752
   Exists: 1
---- !u!114 &114399012187411112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: FMOD\Build\Desktop\Master Bank.strings.bank
-  lastModified: 636721864013497023
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 816
-  Exists: 1
---- !u!114 &114535272586320006
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: D:\FMOD\Potatisspel\Build\Desktop\Master Bank.bank
-  lastModified: 636720146335301887
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 19520
-  Exists: 1
---- !u!114 &114549143496281858
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: D:\Spel\PotatoMan\PotatoMan\FMOD\Build\Desktop\Master Bank.bank
-  lastModified: 636721864013477059
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 338496
-  Exists: 1
---- !u!114 &114572266431523014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: event:/Level1_Theme
-  guid: 166f6bc3af36ae4987ba67622cd3b86b
-  Banks:
-  - {fileID: 114549143496281858}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 26000
---- !u!114 &114636722726537662
+--- !u!114 &114469063065197448
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -151,53 +52,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: event:/Land
-  guid: 914e9bc74e74174897ce79bea62f9058
+  guid: e761a4bdaabb2847ac3c918a25833528
   Banks:
-  - {fileID: 114535272586320006}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 264
---- !u!114 &114647032023303370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: event:/Hopp
-  guid: 3c0423d38807284d908210d870a9e2f5
-  Banks:
-  - {fileID: 114549143496281858}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 196
---- !u!114 &114824460632828886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: event:/Land
-  guid: 914e9bc74e74174897ce79bea62f9058
-  Banks:
-  - {fileID: 114549143496281858}
+  - {fileID: 114148700830267014}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -205,7 +62,51 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 224
---- !u!114 &114855754396400232
+--- !u!114 &114609806969989906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Musik_Theme1
+  guid: 1b3b42433a95584eb7f88aebd245020e
+  Banks:
+  - {fileID: 114148700830267014}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 26000
+--- !u!114 &114893649313844092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/Hopp
+  guid: 1947e93ca945734696c05c7cd0377705
+  Banks:
+  - {fileID: 114148700830267014}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 190
+--- !u!114 &114962838374386692
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -216,10 +117,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Path: D:\FMOD\Potatisspel\Build\Desktop\Master Bank.strings.bank
-  lastModified: 636720146335316870
+  Path: FMOD\Potatisspel\Build\Desktop\Master Bank.strings.bank
+  lastModified: 636721948663906486
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 762
+    Value: 804
   Exists: 1
