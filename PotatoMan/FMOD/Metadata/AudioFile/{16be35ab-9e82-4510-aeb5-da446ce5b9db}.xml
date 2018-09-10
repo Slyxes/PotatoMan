@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{16be35ab-9e82-4510-aeb5-da446ce5b9db}">
+        <property name="assetPath">
+            <value>Potatisspel_Theme_1st.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>26</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{5b037e24-53ae-429d-8657-a6950e423746}</destination>
+        </relationship>
+    </object>
+</objects>
