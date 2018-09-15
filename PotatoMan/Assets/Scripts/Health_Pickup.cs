@@ -5,8 +5,9 @@ using UnityEngine;
 public class Health_Pickup : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D col) {
-        Debug.Log("Collision!");
+        GameObject.Find("Player").GetComponent<PlayerHealth>().PlayerHealthIncrease(1);
         Destroy(gameObject);
+        GameObject.Find("Player").GetComponent<PlayerHealth>().PlayerhealthCheck();
     }
 
 }

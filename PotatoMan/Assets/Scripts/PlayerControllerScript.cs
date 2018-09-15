@@ -15,7 +15,6 @@ public class PlayerControllerScript : MonoBehaviour {
 
     private bool Grounded;
     const float GroundedRadius = .2f;
-    private bool FacingRight = true;
     private Vector3 Velocity = Vector3.zero;
     private Rigidbody2D OceanmanRigidbody2D;
     private bool HasJumped = false;
@@ -25,7 +24,6 @@ public class PlayerControllerScript : MonoBehaviour {
         OceanmanRigidbody2D = GetComponent<Rigidbody2D>();
     }
     private void FixedUpdate() {
-        bool wasGrounded = Grounded;
         Grounded = false;
         
         // The player is grounded if a circlecast to the groundcheck position hits anything designated as ground

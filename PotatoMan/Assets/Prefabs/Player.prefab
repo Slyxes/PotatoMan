@@ -41,6 +41,7 @@ GameObject:
   - component: {fileID: 58702038315554556}
   - component: {fileID: 114093520807548014}
   - component: {fileID: 114057098909569234}
+  - component: {fileID: 114966494903520562}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -183,7 +184,18 @@ MonoBehaviour:
     m_Bits: 4294967295
   JumpSound: event:/Hopp
   LandSound: event:/Land
-  Level01Music: event:/Musik_Theme1
+--- !u!114 &114966494903520562
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1030307250500054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26d1e8838efe0de4d86290dd5d7841d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Playerhealth: 5
 --- !u!212 &212410485761531694
 SpriteRenderer:
   m_ObjectHideFlags: 1
