@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour {
 
-    private int Playerhealth = 5; 
+    private float Playerhealth;
 
-    public void PlayerHealthReduction(int number) {
+    private void Awake() {
+        Playerhealth = 100;
+    }
+
+    public void PlayerHealthReduction(float number) {
         Playerhealth -= number;
     }
-    public void PlayerHealthIncrease(int number) {
+    public void PlayerHealthIncrease(float number) {
         Playerhealth += number;
+    }
+    public float GetHealthpct() {
+        Debug.Log("curerntplayerhealth" + Playerhealth);
+        return Playerhealth / 100;
     }
     public void PlayerhealthCheck() {
         Debug.Log(Playerhealth);
