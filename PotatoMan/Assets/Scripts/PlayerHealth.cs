@@ -4,24 +4,42 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour {
 
-    private float Playerhealth;
+    [SerializeField] Transform player;
 
-    private void Awake() {
-        Playerhealth = 100;
-    }
+    bool Killzonealreadyhitcheck = false;
+    public static float Playerhealth = 100;
 
-    public void PlayerHealthReduction(float number) {
+    private void PlayerHealthReduction(float number) {
         Playerhealth -= number;
     }
-    public void PlayerHealthIncrease(float number) {
+    private void PlayerHealthIncrease(float number) {
         Playerhealth += number;
     }
-    public float GetHealthpct() {
-        Debug.Log("curerntplayerhealth" + Playerhealth);
-        return Playerhealth / 100;
-    }
+
     public void PlayerhealthCheck() {
         Debug.Log(Playerhealth);
     }
 
+    private void OnCollisionEnter2D(Collision2D collision) {
+        if (collision.gameObject.tag == "HealthPickup" && Killzonealreadyhitcheck == false) {
+            if (Killzonealreadyhitcheck == false) {
+                PlayerHealthIncrease(20);
+                Destroy(collision.gameObject);
+                Killzonealreadyhitcheck = true;
+                PlayerhealthCheck();
+            }
+        }
+        if (collision.gameObject.tag == "KillZone" && Killzonealreadyhitcheck == false) {
+            if (Killzonealreadyhitcheck == false) {
+                PlayerHealthReduction(20);
+                player.transform.position = new Vector3(-4, 2, 0);
+                GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+                Killzonealreadyhitcheck = true;
+                PlayerhealthCheck();
+            }
+        }
+        if (collision.gameObject.tag == "WalkableGround") {
+            Killzonealreadyhitcheck = false;
+        }
+    }
 }

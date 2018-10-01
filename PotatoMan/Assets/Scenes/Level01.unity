@@ -7560,10 +7560,10 @@ RectTransform:
   m_Father: {fileID: 1602312787}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 450.96, y: 644}
-  m_SizeDelta: {x: 186.41998, y: 40.419983}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -119, y: -43}
+  m_SizeDelta: {x: 186.41992, y: 40.419983}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1931122175
 MonoBehaviour:
@@ -7655,7 +7655,13 @@ Prefab:
       propertyPath: player
       value: 
       objectReference: {fileID: 1713684023}
-    m_RemovedComponents: []
+    - target: {fileID: 114966494903520562, guid: f829d044197fbd243a72c6799b9f804b,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1713684023}
+    m_RemovedComponents:
+    - {fileID: 114141531162724524, guid: f829d044197fbd243a72c6799b9f804b, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: f829d044197fbd243a72c6799b9f804b, type: 2}
   m_IsPrefabAsset: 0
 --- !u!114 &1944801622 stripped
