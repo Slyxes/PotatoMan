@@ -16,17 +16,12 @@ public class PlayerHealth : MonoBehaviour {
         Playerhealth += number;
     }
 
-    public void PlayerhealthCheck() {
-        Debug.Log(Playerhealth);
-    }
-
     private void OnCollisionEnter2D(Collision2D collision) {
         if (collision.gameObject.tag == "HealthPickup" && Killzonealreadyhitcheck == false) {
             if (Killzonealreadyhitcheck == false) {
                 PlayerHealthIncrease(20);
                 Destroy(collision.gameObject);
                 Killzonealreadyhitcheck = true;
-                PlayerhealthCheck();
             }
         }
         if (collision.gameObject.tag == "KillZone" && Killzonealreadyhitcheck == false) {
@@ -35,7 +30,6 @@ public class PlayerHealth : MonoBehaviour {
                 player.transform.position = new Vector3(-4, 2, 0);
                 GetComponent<Rigidbody2D>().velocity = Vector3.zero;
                 Killzonealreadyhitcheck = true;
-                PlayerhealthCheck();
             }
         }
         if (collision.gameObject.tag == "WalkableGround") {

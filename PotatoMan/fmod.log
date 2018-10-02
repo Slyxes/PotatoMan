@@ -29,14 +29,14 @@
 [LOG] SystemI::createSoundInternal             : exinfo->length             = 322848
 [LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 15904
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000000793CF5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000000070BCF5FC
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB229ADA20
 [LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB229AD9F0
 [LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB229ADAF0
 [LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB229ADBB0
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000000516F6638
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000000058BF4218
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Land_1', format=2, channels=2, frequency=48000, lengthbytes=2720, lengthpcm=12672, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.248383.
@@ -45,21 +45,85 @@
 [LOG] SystemI::createSoundInternal             : exinfo->length             = 322848
 [LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 15904
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000000793CF5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000000070BCF5FC
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB229ADA20
 [LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB229AD9F0
 [LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB229ADAF0
 [LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB229ADBB0
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000000516F6638
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000000058BF4218
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Hopp_1', format=2, channels=2, frequency=48000, lengthbytes=2016, lengthpcm=11520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.631104.
-[LOG] SoundI::release                          :  (00000000516C77E8)
-[LOG] SoundI::release                          :     Hopp_1 (000000005895AAF8)
-[LOG] SoundI::release                          :  (00000000516C81F8)
-[LOG] SoundI::release                          :     Land_1 (000000005895B178)
+[LOG] SystemI::createSound                     : filename = FMOD\Potatisspel\Build\Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] Thread::initThread                       : Init FMOD nonblocking thread (0). Priority: 1, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
+[LOG] SystemI::createSound                     : setdata soundi = 000000001ADE9378 : node = 00000000513A1A00
+[LOG] SystemI::createSound                     : add node to async list : head = 0000000058B0E4D8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000000001ADE9378
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD\Potatisspel\Build\Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 322848
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 15904
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000513A1B18
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Potatisspel_Theme_1st', format=2, channels=2, frequency=48000, lengthbytes=317696, lengthpcm=1248000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.473450.
+[LOG] Thread::initThread                       :     Init FMOD file thread. Priority: 1, Stack Size: 16384, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000000001ADE9378
+[LOG] SoundI::getSubSound                      : sound 000000001ADE9378.  Subsound index 0 / 1
+[LOG] SystemI::createSound                     : filename = FMOD\Potatisspel\Build\Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000000001ADE8CB8 : node = 00000000513A2090
+[LOG] SystemI::createSound                     : add node to async list : head = 0000000058B0E4D8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000000001ADE8CB8
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD\Potatisspel\Build\Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 322848
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 15904
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000513A21A8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 6000
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Potatisspel_Theme_1st', format=2, channels=2, frequency=48000, lengthbytes=317696, lengthpcm=1248000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.473450.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000000001ADE8CB8
+[LOG] SoundI::getSubSound                      : sound 000000001ADE8CB8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : Potatisspel_Theme_1st (000000001ADE9378)
+[LOG] SoundI::release                          :     Potatisspel_Theme_1st (0000000058B0E528)
+[LOG] SoundI::release                          :     Potatisspel_Theme_1st (000000001ADEA968)
+[LOG] SystemI::createSound                     : filename = FMOD\Potatisspel\Build\Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000000001ADEA968 : node = 00000000513A2480
+[LOG] SystemI::createSound                     : add node to async list : head = 0000000058B0E4D8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000000001ADEA968
+[LOG] SystemI::createSoundInternal             :     Create name='FMOD\Potatisspel\Build\Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 322848
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 15904
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000513A2598
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 6000
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Potatisspel_Theme_1st', format=2, channels=2, frequency=48000, lengthbytes=317696, lengthpcm=1248000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.473450.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000000001ADEA968
+[LOG] SoundI::getSubSound                      : sound 000000001ADEA968.  Subsound index 0 / 1
+[LOG] SoundI::release                          : Potatisspel_Theme_1st (000000001ADE8CB8)
+[LOG] SoundI::release                          :     Potatisspel_Theme_1st (0000000058B0F3C8)
+[LOG] SoundI::release                          :     Potatisspel_Theme_1st (000000001ADE96D8)
+[LOG] SoundI::release                          :  (00000000516C7AC8)
+[LOG] SoundI::release                          :     Hopp_1 (0000000058B0E1E8)
+[LOG] SoundI::release                          :  (00000000516C7398)
+[LOG] SoundI::release                          :     Land_1 (0000000058B0E048)
+[LOG] SoundI::release                          : Potatisspel_Theme_1st (000000001ADEA968)
+[LOG] SoundI::release                          :     Potatisspel_Theme_1st (0000000058B0E528)
+[LOG] SoundI::release                          :     Potatisspel_Theme_1st (000000001ADE9378)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
@@ -69,4 +133,6 @@
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
+[LOG] Thread::callback                         : FMOD file thread finished.
 [LOG] SystemI::close                           : Closed.

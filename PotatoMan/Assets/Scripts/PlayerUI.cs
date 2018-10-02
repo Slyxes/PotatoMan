@@ -14,6 +14,5 @@ public class PlayerUI : MonoBehaviour {
     
     void SetHealthAmount(float amount) {
         Healthbarfill.localScale = new Vector3(amount, 1f, 1f);
-        Debug.Log(amount);
     }
 }
