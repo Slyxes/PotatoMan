@@ -15,24 +15,29 @@ public class EnemyController : MonoBehaviour {
     private Rigidbody2D Rigidbody;
 
 	void Start () {
+        //Hämta rigidbody från fiende
         Rigidbody = GetComponent<Rigidbody2D>();
 	}
+
 	void Update () {
+        //Hämtar vart spelaren/fienden är
         movedirection = CheckWherePlayerIs(player.position, transform.position);
         float distance = Vector3.Distance(player.position, transform.position);
         Vector3 targetVelocity = new Vector2(movedirection * Time.fixedDeltaTime * 10f * enemyrunspeed, Rigidbody.velocity.y);
 
         if (distance <= LookRadius) {
+            //För sig mot Spelaren
             Rigidbody.velocity = Vector3.SmoothDamp(Rigidbody.velocity, targetVelocity, ref Velocity, MovementSmoothing);
         }
 	}
+    //Vilket håll fienden ska gå åt beroende på vart Spelaren är
     private int CheckWherePlayerIs(Vector3 player, Vector3 enemy) {
         if (player.x > enemy.x) {
             return 1;
         }
         else return -1;
     }
-
+    //Visuellt av Lookradius av fiende
     private void OnDrawGizmosSelected() {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, LookRadius);

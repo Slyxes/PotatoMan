@@ -11,7 +11,7 @@
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 65536, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 49152, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000000005DB06638 isAsync 1 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 00000000628D98D8 isAsync 1 updatePeriod 0.02
 [LOG] Thread::initThread                       : Init FMOD Studio update thread. Priority: 0, Stack Size: 65536, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
@@ -29,14 +29,14 @@
 [LOG] SystemI::createSoundInternal             : exinfo->length             = 322848
 [LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 15904
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000005094F5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000007CFCF5FC
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB229ADA20
 [LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB229AD9F0
 [LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB229ADAF0
 [LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB229ADBB0
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000005D045698
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000000516E6738
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Land_1', format=2, channels=2, frequency=48000, lengthbytes=2720, lengthpcm=12672, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.248383.
@@ -45,21 +45,21 @@
 [LOG] SystemI::createSoundInternal             : exinfo->length             = 322848
 [LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 15904
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000005094F5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000007CFCF5FC
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB229ADA20
 [LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB229AD9F0
 [LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB229ADAF0
 [LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB229ADBB0
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000005D045698
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000000516E6738
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Hopp_1', format=2, channels=2, frequency=48000, lengthbytes=2016, lengthpcm=11520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.631104.
-[LOG] SoundI::release                          :  (000000004216FF08)
-[LOG] SoundI::release                          :     Hopp_1 (00000000625802E8)
-[LOG] SoundI::release                          :  (000000004216F668)
-[LOG] SoundI::release                          :     Land_1 (000000005D3AF298)
+[LOG] SoundI::release                          :  (0000000062A1BA38)
+[LOG] SoundI::release                          :     Hopp_1 (0000000058B0C7E8)
+[LOG] SoundI::release                          :  (0000000062A1BFF8)
+[LOG] SoundI::release                          :     Land_1 (0000000058B0D1A8)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients

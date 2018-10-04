@@ -7,6 +7,7 @@ TagManager:
   - HealthPickup
   - KillZone
   - WalkableGround
+  - Enemy
   layers:
   - Default
   - TransparentFX
