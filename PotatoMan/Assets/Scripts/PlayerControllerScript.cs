@@ -54,10 +54,10 @@ public class PlayerControllerScript : MonoBehaviour {
     }
 
     public void Move(float move, bool jump) {
-        
         Vector3 targetVelocity = new Vector2(move * 10f, OceanmanRigidbody2D.velocity.y);
+        //Rör på spelaren
         OceanmanRigidbody2D.velocity = Vector3.SmoothDamp(OceanmanRigidbody2D.velocity, targetVelocity, ref Velocity, MovementSmoothing);
-        
+        //Hopp controll
         if (jump && !Grounded && !HasJumped || jump && IsAdmincontrol) {
             if (!IsAdmincontrol) {
                 HasJumped = true;
@@ -66,6 +66,7 @@ public class PlayerControllerScript : MonoBehaviour {
             OceanmanRigidbody2D.AddForce(new Vector2(0f, JumpForce)); 
         }
     }
+    //För att komma in i menyn
     public void Esc(bool HitEscape) {
         if (HitEscape == true)
             SceneManager.LoadScene("MainMenu");
