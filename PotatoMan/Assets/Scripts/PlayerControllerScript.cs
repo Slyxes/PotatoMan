@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerControllerScript : MonoBehaviour {
 
+    public GameLoadNUnload GameLoadNUnload;
+
     [SerializeField] private float JumpForce = 700f;
     [SerializeField] private float MovementSmoothing = .05f;
     [SerializeField] private bool IsAdmincontrol = true;
@@ -12,6 +14,7 @@ public class PlayerControllerScript : MonoBehaviour {
     [SerializeField] private LayerMask WhatIsGround;
     [SerializeField] private string JumpSound;
     [SerializeField] private string LandSound;
+
 
     private bool Grounded;
     const float GroundedRadius = .2f;
@@ -47,6 +50,9 @@ public class PlayerControllerScript : MonoBehaviour {
         else {
             LandingCheck = true;
         }
+        if (PlayerHealth.Playerhealth <= 0) {
+            GameLoadNUnload.YouLostNoob();
+        }
     }
 
     private void LandingSoundCheck(bool grounded, bool landingcheck) {
@@ -69,7 +75,7 @@ public class PlayerControllerScript : MonoBehaviour {
     //För att komma in i menyn
     public void Esc(bool HitEscape) {
         if (HitEscape == true)
-            SceneManager.LoadScene("MainMenu");
+            GameLoadNUnload.GoToMainMenu();
     }
 
     

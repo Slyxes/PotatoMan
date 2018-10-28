@@ -42,7 +42,6 @@ GameObject:
   - component: {fileID: 114093520807548014}
   - component: {fileID: 114057098909569234}
   - component: {fileID: 114966494903520562}
-  - component: {fileID: 114141531162724524}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -176,6 +175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 590f76a23b9fa104c91d91ad1e4a925c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameLoadNUnload: {fileID: 0}
   JumpForce: 200
   MovementSmoothing: 0.05
   IsAdmincontrol: 0
@@ -185,20 +185,6 @@ MonoBehaviour:
     m_Bits: 4294967295
   JumpSound: event:/Hopp
   LandSound: event:/Land
---- !u!114 &114141531162724524
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1030307250500054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e10cc98d7e039d74ab65e750f91db5f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerhealth: {fileID: 114966494903520562}
-  player: {fileID: 4775844185449060}
-  Killzonealreadyhitcheck: 0
 --- !u!114 &114966494903520562
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -211,6 +197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 4775844185449060}
+  enemy: {fileID: 4735295467086920, guid: 01ef0f439379d054492518015d151d61, type: 2}
 --- !u!212 &212410485761531694
 SpriteRenderer:
   m_ObjectHideFlags: 1

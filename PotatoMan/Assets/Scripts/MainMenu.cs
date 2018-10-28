@@ -1,25 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+
 
 public class MainMenu : MonoBehaviour {
 
-    [SerializeField] private string Level01Music;
-
+    public GameLoadNUnload GameLoadNUnload;
 
     public void TestingMap() {
-        SceneManager.LoadScene("TestingMap");
+        GameLoadNUnload.TestingMap();
     }
 
     public void Level01() {
-        SceneManager.LoadScene("Level01");
-        FMODUnity.RuntimeManager.PlayOneShot(Level01Music);
+        GameLoadNUnload.Level01();
     }
 
     public void QuitGame() {
-        Debug.Log("Quit");
-        Application.Quit();
+        GameLoadNUnload.QuitGame();
     }
 
 }
