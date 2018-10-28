@@ -10,13 +10,19 @@
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 49152, Semaphore: No, Sleep Time: 0, Looping: Yes.
 <<<<<<< HEAD
+<<<<<<< HEAD
 [LOG] AsyncManager::init                       : manager 0000000042245178 isAsync 1 updatePeriod 0.02
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> aee35b5e4925079d147eefc4490d974f61c43e61
 [LOG] AsyncManager::init                       : manager 00000000420CF498 isAsync 1 updatePeriod 0.02
 =======
 [LOG] AsyncManager::init                       : manager 00000000628D98D8 isAsync 1 updatePeriod 0.02
 >>>>>>> 9d9101b15220cb1ff59f65841e9f6d44b95d21cc
+<<<<<<< HEAD
+>>>>>>> aee35b5e4925079d147eefc4490d974f61c43e61
+=======
 >>>>>>> aee35b5e4925079d147eefc4490d974f61c43e61
 [LOG] Thread::initThread                       : Init FMOD Studio update thread. Priority: 0, Stack Size: 65536, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] AsyncManager::init                       : done
@@ -36,6 +42,7 @@
 [LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 15904
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000005826F5FC
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
@@ -46,6 +53,8 @@
 [LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000004C554998
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> aee35b5e4925079d147eefc4490d974f61c43e61
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000004A37F5FC
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
@@ -64,6 +73,9 @@
 [LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB229ADBB0
 [LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000000516E6738
 >>>>>>> 9d9101b15220cb1ff59f65841e9f6d44b95d21cc
+<<<<<<< HEAD
+>>>>>>> aee35b5e4925079d147eefc4490d974f61c43e61
+=======
 >>>>>>> aee35b5e4925079d147eefc4490d974f61c43e61
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
@@ -74,9 +86,12 @@
 [LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 15904
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000005826F5FC
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> aee35b5e4925079d147eefc4490d974f61c43e61
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000004A37F5FC
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
