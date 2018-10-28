@@ -13,14 +13,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 114184722986924362}
-  - {fileID: 114311021856344570}
+  - {fileID: 114400686310770446}
   EditorEvents:
   - {fileID: 114986582821991664}
   - {fileID: 114181025154525948}
   - {fileID: 114090498702820024}
-  MasterBankRef: {fileID: 114311021856344570}
+  MasterBankRef: {fileID: 114400686310770446}
   StringsBankRef: {fileID: 114184722986924362}
-  stringsBankWriteTime: 636721966874627356
+  stringsBankWriteTime: 636721975933861310
   cacheVersion: 2
 --- !u!114 &114090498702820024
 MonoBehaviour:
@@ -36,7 +36,7 @@ MonoBehaviour:
   Path: event:/Land
   guid: e761a4bdaabb2847ac3c918a25833528
   Banks:
-  - {fileID: 114311021856344570}
+  - {fileID: 114400686310770446}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -58,7 +58,7 @@ MonoBehaviour:
   Path: event:/Musik_Theme1
   guid: 1b3b42433a95584eb7f88aebd245020e
   Banks:
-  - {fileID: 114311021856344570}
+  - {fileID: 114400686310770446}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -78,7 +78,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: FMOD\Potatisspel\Build\Desktop\Master Bank.strings.bank
-  lastModified: 636721966874627356
+  lastModified: 636721975933861310
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -103,6 +103,24 @@ MonoBehaviour:
   - Name: Desktop
     Value: 338752
   Exists: 1
+--- !u!114 &114400686310770446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: D:\Spel\PotatoMan\PotatoMan\FMOD\Potatisspel\Build\Desktop\Master Bank.bank
+  lastModified: 636721975933846336
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 338752
+  Exists: 1
 --- !u!114 &114986582821991664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117,7 +135,7 @@ MonoBehaviour:
   Path: event:/Hopp
   guid: 1947e93ca945734696c05c7cd0377705
   Banks:
-  - {fileID: 114311021856344570}
+  - {fileID: 114400686310770446}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
